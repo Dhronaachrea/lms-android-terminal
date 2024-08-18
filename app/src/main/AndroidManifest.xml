@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="demo.stpl.com.tpsmergedbuild">
+
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="true" />
+
+    <permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!-- <uses-permission android:name="android.permission.BLUETOOTH"></uses-permission> -->
+    <!-- <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"></uses-permission> -->
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <!-- <uses-permission android:name="android.permission.DISABLE_KEYGUARD" /> -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.SET_TIME_ZONE" />
+
+    <!-- <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" /> -->
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <uses-permission android:name="android.permission.MANAGE_USB" />
+
+    <application
+        android:name="demo.stpl.com.tpsmergedbuild.TpsApplicationClass"
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TpsSplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".baseClass.ActivityToRegisterUsb"
+            android:label="YOUR APPLICATION NAME - This appears in the permission popup"
+            android:noHistory="true"
+            android:excludeFromRecents="true"
+            android:taskAffinity="com.example.taskAffinityUsbEventReceiver"
+            android:process=":UsbEventReceiverActivityProcess"
+            android:exported="false"
+            >
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+            </intent-filter>
+            <!--<meta-data  android:name=
+                            "android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                        android:resource="@xml/usb_device_filter" />
+            <meta-data android:name=
+                           "android.hardware.usb.action.USB_DEVICE_DETACHED"
+                       android:resource="@xml/usb_device_filter" />-->
+        </activity>
+
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.PrintActivityAllGames" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.PrintActivityAllGamesTousei" />
+        <!-- <activity android:name="tpsgames.dge.GameActivities.MainActivity" /> -->
+        <activity
+            android:name="demo.stpl.com.tpsmergedbuild.activity.LoginActivityTpsGame"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.HomeActivityTpsGame" />
+        <activity
+            android:name="demo.stpl.com.tpsmergedbuild.activity.ClaimWinningActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name="demo.stpl.com.tpsmergedbuild.activity.ClaimWinningActivityTousei"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.ActivityEbetSlipTpsGame" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.PrintActivitySportsGame" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.PrintActivitySportsGameTousei" />
+        <activity
+            android:name="demo.stpl.com.tpsmergedbuild.betslip.ActivityBetSlipCamera"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.ActivityDgeGames" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.ActivitySleGames" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.ActivityPrintSportsJson" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.ActivityLockScreen" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.PrintActivityDgeExternalPrinter" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.PrintActivitySportsExternal" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.PrintWinningClaim" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.PrintWinningClaimTousei" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.PrintWinningAzt" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.PrintActivityAZT" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.PrintActivitySportsAzt" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.ActivityBluetoothPrint" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.MainAppCrashActivity" />
+        <activity
+            android:name="demo.stpl.com.tpsmergedbuild.activity.ActivityCrashReporter"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity android:name="demo.stpl.com.tpsmergedbuild.activity.Ola" />
+        <activity
+            android:name="demo.stpl.com.tpsmergedbuild.activity.ActivityDiscoveryExternalPrinter"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name="demo.stpl.com.tpsmergedbuild.activity.ClaimWinningActivityTps390"
+            android:label="@string/title_activity_claim_winning_activity_tps390"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity
+            android:name="demo.stpl.com.tpsmergedbuild.activity.ActivityDgeGamesTps390"
+            android:label="@string/title_activity_activity_dge_games_tps390"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="demo.stpl.com.tpsmergedbuild.activity.ActivitySleGamesTps390"
+            android:label="@string/title_activity_activity_sle_games_tps390"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>

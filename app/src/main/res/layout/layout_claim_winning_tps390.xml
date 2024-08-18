@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/common_dialog_bg_app"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:splitMotionEvents="false">
+
+    <TextView
+        android:id="@+id/dialogHeaderText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/headerbgselect_app"
+        android:gravity="left"
+        android:padding="@dimen/_5sdp"
+        android:text="Winning Claim"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_14sdp"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/textMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_2sdp"
+        android:layout_marginRight="@dimen/_2sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="@dimen/_10sdp"
+        android:text="Please place the ticket in front of scanner"
+        android:visibility="visible"/>
+
+
+    <demo.stpl.com.tpsmergedbuild.utils.CustomEditText
+        android:id="@+id/edit_view1"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:imeOptions="actionGo"
+        android:maxLength="20"
+        android:numeric="decimal"
+        android:singleLine="true"
+        android:textColorHint="@color/five_color_one"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/_10sdp"
+        android:visibility="visible"/>
+
+    <!--<View--><!--android:layout_width="match_parent"--><!--android:layout_height="0.2dp"--><!--android:background="@color/dark_purple" />-->
+
+    <LinearLayout
+        android:id="@+id/btns1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:splitMotionEvents="false">
+
+        <TextView
+            android:id="@+id/btn_negative1"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:background="@drawable/common_button_draw_app"
+            android:digits="012345678"
+            android:gravity="center"
+            android:inputType="number"
+            android:minWidth="175dp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:text="@string/cancel"
+            android:textStyle="bold"
+            android:textColor="#66ccff"
+            android:textSize="@dimen/_10sdp"
+            android:visibility="visible"/>
+
+
+        <TextView
+            android:id="@+id/btn_positive1"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:layout_marginRight="@dimen/_5sdp"
+
+            android:background="@drawable/common_button_draw_app"
+            android:gravity="center"
+            android:minWidth="175dp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:text="@string/scan_ticket"
+            android:textColor="#66ccff"
+            android:textStyle="bold"
+
+            android:textSize="@dimen/_10sdp"
+            android:visibility="visible"/>
+    </LinearLayout>
+</LinearLayout>

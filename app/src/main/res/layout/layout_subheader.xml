@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#021325"
+              android:orientation="horizontal"
+              android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:background="@color/common_color_draw_bg_ebet"
+        android:gravity="center">
+
+        <com.tablet.stpl.comman.utils.VerticalTextView
+            android:id="@+id/select_game"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center|center_vertical"
+            android:text="SELECT GAME"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_5sdp" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/game_name"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8.5"
+        android:scrollbars="horizontal" />
+
+    <LinearLayout
+        android:id="@+id/bet_slip"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/more_col_id"
+            layout="@layout/more_col"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+
+        <include
+            android:id="@+id/bet_slip_id"
+            layout="@layout/common_bet_slip"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0" />
+
+
+        <include
+            android:id="@+id/winning_claim_id"
+            layout="@layout/common_winning_claim"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout_new"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:background="@color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    app:layout_collapseParallaxMultiplier="1.0"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/game_selection"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom=".5dp"
+            android:layout_marginTop=".5dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.9"
+                android:background="@color/common_color_draw_bg_ebet"
+                android:gravity="center">
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_weight=".4"
+                    android:layout_height="match_parent"
+                    android:background="@color/common_color_draw_bg_ebet"
+                    android:src="@drawable/threelines"
+                    android:id="@+id/threeLines"
+                    />
+
+                <TextView
+                    android:id="@+id/select_game"
+                    android:layout_width="0dp"
+                    android:layout_weight=".6"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:rotation="270"
+                    android:text="SELECT GAME"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/_6sdp"/>
+
+                <!--
+                            <com.tablet.stpl.comman.utils.VerticalTextView
+                                android:id="@+id/select_game"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="center|center_vertical"
+                                android:text="SELECT GAME"
+                                android:textColor="#FFFFFF"
+                                android:textSize="@dimen/_5sdp" />-->
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScroll"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="8.1">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="6">
+
+                    <LinearLayout
+                        android:id="@+id/lucky_numbers"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/top_game_selector"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+
+
+                        <ImageView
+                            android:id="@+id/lucky_numbers_img"
+                            android:layout_width="70dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="8"
+                            android:src="@mipmap/lucky_5_90"/>
+
+                        <TextView
+                            android:id="@+id/game_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:gravity="right|bottom"
+                            android:paddingRight="12dp"
+                            android:text="Lucky Numbers"
+                            android:textSize="@dimen/_8sdp"
+
+                            android:textColor="#E1E3E5"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/mini_keno"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/top_game_selector"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+
+
+                        <ImageView
+                            android:id="@+id/mini_keno_img"
+                            android:layout_width="70dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="8"
+                            android:src="@mipmap/mini_keno"/>
+
+                        <TextView
+                            android:id="@+id/mini_keno_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:gravity="right|bottom"
+                            android:paddingRight="12dp"
+                            android:text="Mini Keno"
+                            android:textSize="@dimen/_8sdp"
+                            android:textColor="#E1E3E5"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/mini_roulette"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/top_game_selector"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+
+
+                        <ImageView
+                            android:id="@+id/mini_roulette_img"
+                            android:layout_width="70dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="8"
+                            android:src="@mipmap/mini_roulette"/>
+
+                        <TextView
+                            android:id="@+id/mini_roulette_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:gravity="right|bottom"
+                            android:paddingRight="12dp"
+                            android:text="Mini Roulette"
+                            android:textSize="@dimen/_8sdp"
+
+                            android:textColor="#E1E3E5"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/super_keno"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/top_game_selector"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+
+
+                        <ImageView
+                            android:id="@+id/super_keno_img"
+                            android:layout_width="70dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="8"
+                            android:src="@mipmap/super_keno"/>
+
+                        <TextView
+                            android:id="@+id/super_keno_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:gravity="right|bottom"
+                            android:paddingRight="12dp"
+                            android:text="Super Keno"
+                            android:textSize="@dimen/_8sdp"
+
+                            android:textColor="#E1E3E5"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/one_to_twelve"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+
+                        android:background="@drawable/top_game_selector"
+                        android:orientation="vertical"
+                        android:weightSum="10">
+
+
+                        <ImageView
+                            android:id="@+id/one_to_twelve_img"
+                            android:layout_width="70dp"
+                            android:layout_height="0dp"
+                            android:layout_weight="8"
+                            android:src="@mipmap/fortune"/>
+
+                        <TextView
+                            android:id="@+id/one_to_twelve_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:gravity="right|bottom"
+                            android:paddingRight="12dp"
+                            android:textSize="@dimen/_8sdp"
+
+                            android:text="One To Twelve"
+                            android:textColor="#E1E3E5"/>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+            <LinearLayout
+                android:id="@+id/bet_slip"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <include
+                    android:id="@+id/more_col_id"
+                    layout="@layout/more_col"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom=".5dp"
+            android:layout_marginTop=".5dp"
+            android:layout_weight="9"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/below_sub_header"
+                layout="@layout/layout_below_sub_header_tps390"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom=".5dp"
+                android:layout_marginTop=".5dp"
+                android:layout_weight="1.5" />
+
+            <LinearLayout
+                android:id="@+id/main_view"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom=".5dp"
+                android:layout_marginTop=".5dp"
+                android:layout_weight="7.5"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <include
+            android:id="@+id/bottom_layout"
+            layout="@layout/layout_footer_tps390"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/main_header"
+        layout="@layout/layout_header_tps390"
+
+        android:layout_gravity="left"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#ccc"
+        android:visibility="visible"
+        android:layout_width="150dp"
+        android:layout_height="match_parent" />
+</android.support.v4.widget.DrawerLayout>

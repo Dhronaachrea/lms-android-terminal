@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="8"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="01"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:text="02"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/three"
+            android:layout_width="0dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="03"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/four"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="center"
+            android:text="04"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/five"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="05"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/six"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="06"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/seven"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="07"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/eight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="08"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/nine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="09"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/ten"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="10"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/eleven"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="11"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/twelve"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="12"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/thirteen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="13"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fourteen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="14"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fifteen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="15"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/sixteen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="16"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/seventeen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="17"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/eighteen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="18"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/nineteen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="19"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/twenty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="20"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/twenty_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="21"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/twenty_two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="22"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/twenty_three"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="23"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/twenty_four"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="24"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/twenty_five"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="25"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/twenty_six"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="26"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/twenty_seven"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="27"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/twenty_eight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="28"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/twenty_nine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="29"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/thirty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="30"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/thirty_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="31"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/thirty_two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="32"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/thirty_three"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="33"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/thirty_four"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="34"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/thirty_five"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="35"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/thirty_six"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="36"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/thirty_seven"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="37"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/thirty_eight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="38"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/thirty_nine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="39"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fourty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="40"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fourty_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="41"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fourty_two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="42"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fourty_three"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="43"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fourty_four"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="44"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fourty_five"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="45"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fourty_six"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="46"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fourty_seven"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="47"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fourty_eight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="48"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fourty_nine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="49"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fifty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="50"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fifty_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="51"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fifty_two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="52"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fifty_three"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="53"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fifty_four"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="54"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fifty_five"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="55"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fifty_six"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="56"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fifty_seven"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="57"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fifty_eight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="58"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/fifty_nine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="59"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/sixty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="60"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/sixty_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="61"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/sixty_two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="62"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/sixty_three"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="63"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/sixty_four"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="64"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/sixty_five"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="65"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/sixty_six"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="66"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/sixty_seven"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="67"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/sixty_eight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="68"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/sixty_nine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="69"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/seventy"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="70"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/seventy_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="71"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/seventy_two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="72"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/seventy_three"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="73"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/seventy_four"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="74"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/seventy_five"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="75"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/seventy_six"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="76"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/seventy_seven"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="77"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/seventy_eight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="78"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/seventy_nine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="79"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:textStyle="bold" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/eighty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:gravity="center"
+            android:text="80"
+            android:background="@drawable/game_selector_normal"
+            android:textColor="@color/color_adapter_number"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginBottom="1dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

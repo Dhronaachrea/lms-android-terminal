@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:layout_height="wrap_content">
+
+
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/game1"
+        layout="@layout/item_five_sle_tps390"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="1dp"/>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/game2"
+        android:layout_height="0dp"
+        layout="@layout/item_five_sle_tps390"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="1dp"/>
+
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/game3"
+        android:layout_height="0dp"
+        layout="@layout/item_five_sle_tps390"/>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="1dp"/>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/game4"
+        android:layout_height="0dp"
+        layout="@layout/item_five_sle_tps390"/>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="1dp"/>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/game5"
+        android:layout_height="0dp"
+        layout="@layout/item_five_sle_tps390"/>
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="1dp"/>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/game6"
+        android:layout_height="0dp"
+        layout="@layout/item_five_sle_tps390"/>
+
+</LinearLayout>
+
+

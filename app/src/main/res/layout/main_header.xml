@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="@dimen/_60sdp"
+              android:background="@android:color/transparent"
+              android:orientation="horizontal"
+              android:splitMotionEvents="false"
+              android:weightSum="8">
+
+
+    <LinearLayout
+        android:id="@+id/header_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/header_image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:src="@drawable/ebetslipicon"/>
+
+        <TextView
+            android:id="@+id/ebet_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_2sdp"
+            android:gravity="center_vertical"
+            android:text="eBET"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_12sdp"/>
+
+        <TextView
+            android:id="@+id/slip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_2sdp"
+            android:gravity="center_vertical"
+            android:text="SLIP"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_12sdp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

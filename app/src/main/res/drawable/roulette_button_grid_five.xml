@@ -1,0 +1,14 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+<item  android:bottom="@dimen/_minus2sdp"
+    >
+
+    <shape android:shape="rectangle">
+        <solid android:color="@color/kebaroulettebuttonred" />
+
+        <stroke android:width="@dimen/_2sdp" android:color="#FFFFFF" />
+
+
+    </shape>
+
+</item>
+</layer-list>

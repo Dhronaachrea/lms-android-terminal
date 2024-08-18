@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "demo.stpl.com.tpsmergedbuild"
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:1.10.19'
+   // testCompile 'org.mockito:mockito-core:1.+'
+    compile files('libs/acssmc-1.1.1.jar')
+    compile files('libs/telpo_api.jar')
+    compile files('libs/armeabi.jar')
+    compile project(':sdp-android')
+    compile 'com.android.support:recyclerview-v7:23.0.1'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'me.dm7.barcodescanner:zbar:1.8.2'
+    compile('com.dlazaro66.qrcodereaderview:qrcodereaderview:1.0.0') {
+        exclude group: 'org.hamcrest', module: 'hamcrest-core'
+    }
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile files('libs/RootTools-3.4.jar')
+    compile files('libs/crittercism_v5_5_5_sdkonly.jar')
+    compile files('libs/vicescr_api.jar')
+    compile project(':openCVLibrary310')
+    compile files('libs/HdxUtil.jar')
+    compile files('libs/appright-2.2.5.0.jar')
+    compile files('libs/printer7003.jar')
+    compile files('libs/ePOS2.jar')
+    compile files('libs/ePOSEasySelect.jar')
+    compile files('libs/IDCReaderSDK.jar')
+    compile files('libs/scan7003.jar')
+    compile files('libs/A1088SDK.jar')
+    compile files('libs/activation.jar')
+    compile files('libs/additionnal.jar')
+    compile files('libs/mail.jar')
+    compile files('libs/minilcd7003.jar')
+
+}

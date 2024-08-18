@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_ebet"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/main_header_ebet_slip_tps390"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false" />
+
+
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/_6sdp"
+        android:background="#D8000000"
+        android:horizontalSpacing="4dp"
+        android:stretchMode="columnWidth"
+
+
+        android:nestedScrollingEnabled="true"
+        android:numColumns="2"
+        android:verticalSpacing="4dp" />
+
+</LinearLayout>

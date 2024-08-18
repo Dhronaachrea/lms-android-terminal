@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/draw_txt_layout"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.2"
+        android:background="@color/common_color_draw_bg_ebet"
+        android:gravity="center">
+
+        <!--<com.tablet.stpl.comman.utils.VerticalTextView-->
+        <!--android:id="@+id/draw_txt"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:gravity="center"-->
+        <!--android:text="DRAW"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textSize="@dimen/_5sdp" />-->
+        <ImageView
+            android:id="@+id/draw_txt"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="0.2"
+            android:src="@mipmap/draw_txt_ebet" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/draws"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="0.5dp"
+        android:layout_weight="0.9"
+        android:background="@color/common_color_bg_color_draw_ebet"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/more_draw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+2 more"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_6sdp" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:id="@+id/draw_date_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12 AUG, 15:30"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_8sdp" />
+
+        <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=". . ."
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/_9sdp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bg_ebet"
+    android:gravity="center_horizontal|center"
+    android:orientation="vertical"
+    android:padding="@dimen/_20sdp">
+
+    <demo.stpl.com.tpsmergedbuild.utils.CustomEditText
+        android:id="@+id/weaver_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Weaver card no."
+        android:imeOptions="actionGo"
+        android:inputType="numberDecimal"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textColorHint="@color/hint_white"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/_12sdp"
+        android:visibility="visible" />
+
+    <demo.stpl.com.tpsmergedbuild.utils.CustomEditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Amount"
+        android:imeOptions="actionGo"
+        android:inputType="numberDecimal"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textColorHint="@color/hint_white"
+        android:textCursorDrawable="@null"
+
+        android:textSize="@dimen/_12sdp"
+        android:visibility="visible" />
+
+    <demo.stpl.com.tpsmergedbuild.utils.CustomEditText
+        android:id="@+id/verificationCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Verification Code"
+        android:imeOptions="actionGo"
+        android:inputType="numberDecimal"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        android:textColorHint="@color/hint_white"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/_12sdp"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:layout_marginRight="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/common_button_draw_app"
+        android:digits="012345678"
+        android:gravity="center"
+        android:inputType="number"
+        android:minWidth="175dp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:paddingTop="@dimen/_5sdp"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_10sdp"
+        android:visibility="visible" />
+
+</LinearLayout>

@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="2"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="6"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+
+
+        <LinearLayout
+            android:id="@+id/one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/game_selector_normal"
+            android:gravity="center"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/aries_number"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="01"
+                android:textColor="@color/color_adapter_number"
+                android:textSize="@dimen/_22sdp"
+                android:textStyle="bold"
+                app:typeface_common="roboto_medium" />
+
+            <ImageView
+                android:id="@+id/aries_image"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:layout_gravity="center"
+                android:src="@mipmap/aris" />
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/aries_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="ARIES"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="0.3"
+                android:textColor="@color/color_adapter_name"
+                android:textSize="@dimen/_7sdp"
+                app:typeface_common="roboto_regular" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+                android:id="@+id/two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="@drawable/game_selector_normal"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:weightSum="1"
+                android:orientation="vertical">
+
+                <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                    android:id="@+id/taurus_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.3"
+                    android:gravity="center"
+                    android:text="02"
+                    android:textColor="@color/color_adapter_number"
+                    android:textSize="@dimen/_22sdp"
+                    android:textStyle="bold"
+                    app:typeface_common="roboto_medium" />
+
+                <ImageView
+                    android:id="@+id/taurus_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.4"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/tauras" />
+
+                <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                    android:id="@+id/taurus_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:gravity="center"
+                    android:text="TAURUS"
+                    android:padding="@dimen/_2sdp"
+                    android:layout_weight="0.3"
+                    android:textColor="@color/color_adapter_name"
+                    android:textSize="@dimen/_7sdp"
+                    app:typeface_common="roboto_regular" />
+
+
+           </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/three"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/game_selector_normal"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/gemini_number"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="03"
+                android:textColor="@color/color_adapter_number"
+                android:textSize="@dimen/_22sdp"
+                android:textStyle="bold"
+                app:typeface_common="roboto_medium" />
+
+            <ImageView
+                android:id="@+id/gemini_image"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:layout_gravity="center"
+                android:src="@mipmap/gemini" />
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/gemini_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="GEMINI"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="0.3"
+                android:textColor="@color/color_adapter_name"
+                android:textSize="@dimen/_7sdp"
+                app:typeface_common="roboto_regular" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/four"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/game_selector_normal"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/cancer_number"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="04"
+                android:textColor="@color/color_adapter_number"
+                android:textSize="@dimen/_22sdp"
+                android:textStyle="bold"
+                app:typeface_common="roboto_medium" />
+
+            <ImageView
+                android:id="@+id/cancer_image"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:layout_gravity="center"
+                android:src="@mipmap/cancer" />
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/cancer_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="CANCER"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="0.3"
+                android:textColor="@color/color_adapter_name"
+                android:textSize="@dimen/_7sdp"
+                app:typeface_common="roboto_regular" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/five"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/game_selector_normal"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/leo_number"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="05"
+                android:textColor="@color/color_adapter_number"
+                android:textSize="@dimen/_22sdp"
+                android:textStyle="bold"
+                app:typeface_common="roboto_medium" />
+
+            <ImageView
+                android:id="@+id/leo_image"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:layout_gravity="center"
+                android:src="@mipmap/leo" />
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/leo_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="LEO"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="0.3"
+                android:textColor="@color/color_adapter_name"
+                android:textSize="@dimen/_7sdp"
+                app:typeface_common="roboto_regular" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/six"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="1dp"
+            android:background="@drawable/game_selector_normal"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/virgo_number"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="06"
+                android:textColor="@color/color_adapter_number"
+                android:textSize="@dimen/_22sdp"
+                android:textStyle="bold"
+                app:typeface_common="roboto_medium" />
+
+            <ImageView
+                android:id="@+id/virgo_image"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:layout_gravity="center"
+                android:src="@mipmap/virgo" />
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/virgo_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="VIRGO"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="0.3"
+                android:textColor="@color/color_adapter_name"
+                android:textSize="@dimen/_7sdp"
+                app:typeface_common="roboto_regular" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:weightSum="6"
+        android:orientation="horizontal"
+        android:layout_height="0dp">
+
+
+        <LinearLayout
+            android:id="@+id/seven"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/game_selector_normal"
+            android:gravity="center"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/libra_number"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="07"
+                android:textColor="@color/color_adapter_number"
+                android:textSize="@dimen/_22sdp"
+                android:textStyle="bold"
+                app:typeface_common="roboto_medium" />
+
+            <ImageView
+                android:id="@+id/libra_image"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:layout_gravity="center"
+                android:src="@mipmap/libra" />
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/libra_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="LIBRA"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="0.3"
+                android:textColor="@color/color_adapter_name"
+                android:textSize="@dimen/_7sdp"
+                app:typeface_common="roboto_regular" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/eight"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/game_selector_normal"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/scorpio_number"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="08"
+                android:textColor="@color/color_adapter_number"
+                android:textSize="@dimen/_22sdp"
+                android:textStyle="bold"
+                app:typeface_common="roboto_medium" />
+
+            <ImageView
+                android:id="@+id/scorpio_image"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:layout_gravity="center"
+                android:src="@mipmap/scorpio" />
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/scorpio_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="SCORPIO"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="0.3"
+                android:textColor="@color/color_adapter_name"
+                android:textSize="@dimen/_7sdp"
+                app:typeface_common="roboto_regular" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/nine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/game_selector_normal"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/sagittarius_number"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="09"
+                android:textColor="@color/color_adapter_number"
+                android:textSize="@dimen/_22sdp"
+                android:textStyle="bold"
+                app:typeface_common="roboto_medium" />
+
+            <ImageView
+                android:id="@+id/sagittarius_image"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:layout_gravity="center"
+                android:src="@mipmap/sagittarius" />
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/sagittarius_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="SAGITTARIUS"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="0.3"
+                android:textColor="@color/color_adapter_name"
+                android:textSize="@dimen/_7sdp"
+                app:typeface_common="roboto_regular" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ten"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/game_selector_normal"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/capricorn_number"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="10"
+                android:textColor="@color/color_adapter_number"
+                android:textSize="@dimen/_22sdp"
+                android:textStyle="bold"
+                app:typeface_common="roboto_medium" />
+
+            <ImageView
+                android:id="@+id/capricorn_image"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:layout_gravity="center"
+                android:src="@mipmap/capricorn" />
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/capricorn_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="CAPRICORN"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="0.3"
+                android:textColor="@color/color_adapter_name"
+                android:textSize="@dimen/_7sdp"
+                app:typeface_common="roboto_regular" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/eleven"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/game_selector_normal"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/aquarius_number"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="11"
+                android:textColor="@color/color_adapter_number"
+                android:textSize="@dimen/_22sdp"
+                android:textStyle="bold"
+                app:typeface_common="roboto_medium" />
+
+            <ImageView
+                android:id="@+id/aquarius_image"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:layout_gravity="center"
+                android:src="@mipmap/aquarius" />
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/aquarius_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="AQUARIUS"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="0.3"
+                android:textColor="@color/color_adapter_name"
+                android:textSize="@dimen/_7sdp"
+                app:typeface_common="roboto_regular" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/twelve"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/game_selector_normal"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:weightSum="1"
+            android:orientation="vertical">
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/pisces_number"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3"
+                android:gravity="center"
+                android:text="12"
+                android:textColor="@color/color_adapter_number"
+                android:textSize="@dimen/_22sdp"
+                android:textStyle="bold"
+                app:typeface_common="roboto_medium" />
+
+            <ImageView
+                android:id="@+id/pisces_image"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.4"
+                android:layout_gravity="center"
+                android:src="@mipmap/pisces" />
+
+            <demo.stpl.com.tpsmergedbuild.baseClass.RobotoCommonTextView
+                android:id="@+id/pisces_name"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:text="PISCES"
+                android:padding="@dimen/_2sdp"
+                android:layout_weight="0.3"
+                android:textColor="@color/color_adapter_name"
+                android:textSize="@dimen/_7sdp"
+                app:typeface_common="roboto_regular" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

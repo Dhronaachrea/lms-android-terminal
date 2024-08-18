@@ -1,0 +1,1846 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/kebaroulettebackground"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/_10sdp"
+        android:paddingRight="@dimen/_10sdp"
+        android:weightSum="7">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:background="@color/kebaroulettebackground"
+            android:orientation="vertical"
+            android:weightSum="6">
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/zeroa"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/roulette_button_zero"
+                        android:text="0"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/twenty_seven"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/twenty_seven_chip"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_marginBottom="@dimen/_42sdp"
+                        android:layout_marginRight="@dimen/_1sdp"
+                        android:background="@mipmap/chip_image"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_5sdp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="5"
+            android:orientation="vertical"
+            android:weightSum="6">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/one_to_threes"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/roulette_button_one_to_three"
+                        android:paddingTop="@dimen/_3sdp"
+                        android:text="1 - 3"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/four_to_sixs"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/roulette_button_four_to_six"
+                        android:paddingTop="@dimen/_3sdp"
+                        android:text="4 - 6"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/seven_to_nines"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/roulette_button_seven_to_nine"
+                        android:paddingTop="@dimen/_3sdp"
+                        android:text="7 - 9"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/ten_to_twelves"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/roulette_button_ten_to_twelve"
+                        android:paddingTop="@dimen/_3sdp"
+                        android:text="10 - 12"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:weightSum="4">
+
+                    <LinearLayout
+                        android:id="@+id/thirteen"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/thirteen_chip"
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginBottom="@dimen/_12sdp"
+                            android:background="@mipmap/chip_image"
+                            android:text="0"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/_5sdp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fourteen"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/fourteen_chip"
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginBottom="@dimen/_12sdp"
+                            android:background="@mipmap/chip_image"
+                            android:text="0"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/_5sdp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/fifteen"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/fifteen_chip"
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginBottom="@dimen/_12sdp"
+                            android:background="@mipmap/chip_image"
+                            android:text="0"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/_5sdp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/sixteen"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:id="@+id/sixteen_chip"
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginBottom="@dimen/_12sdp"
+                            android:background="@mipmap/chip_image"
+                            android:text="0"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/_5sdp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.82"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+
+                        <Button
+                            android:layout_width="@dimen/_12sdp"
+                            android:layout_height="@dimen/_12sdp"
+                            android:layout_marginRight="@dimen/_10sdp"
+                            android:layout_marginTop="@dimen/_6sdp"
+                            android:background="@mipmap/chip_image"
+                            android:text="0"
+                            android:textColor="@android:color/black"
+                            android:textSize="@dimen/_4sdp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#FFFFFF"
+                    android:orientation="vertical"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:weightSum="4">
+
+                        <Button
+                            android:id="@+id/threes"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/roulette_button_grid_three"
+                            android:text="3"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/sixs"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/roulette_button_grid_six"
+                            android:text="6"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/nines"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/roulette_button_grid_nine"
+                            android:text="9"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/twelves"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/roulette_button_grid_twelve"
+                            android:text="12"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:weightSum="4">
+
+                        <Button
+                            android:id="@+id/twos"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/roulette_button_grid_two"
+                            android:text="2"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/fives"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/roulette_button_grid_five"
+                            android:text="5"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/eights"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/roulette_button_grid_eight"
+                            android:text="8"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/elevens"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/roulette_button_grid_eleven"
+                            android:text="11"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+
+                        <Button
+                            android:id="@+id/ones"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/roulette_button_grid_one"
+                            android:text="1"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/fours"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/roulette_button_grid_four"
+                            android:text="4"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold" />
+
+
+                        <Button
+                            android:id="@+id/sevens"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/roulette_button_grid_seven"
+                            android:text="7"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold" />
+
+
+                        <Button
+                            android:id="@+id/tens"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/roulette_button_grid_ten"
+                            android:text="10"
+                            android:textColor="#FFFFFF"
+                            android:textSize="@dimen/_12sdp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="6.2">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.5"
+                        android:weightSum="8">
+
+
+                        <LinearLayout
+                            android:id="@+id/three"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.82"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/three_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_10sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.4"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/three_and_six"
+                                android:layout_width="@dimen/_11sdp"
+                                android:layout_height="@dimen/_11sdp"
+                                android:layout_marginTop="@dimen/_6sdp"
+                                android:background="@drawable/roulette_button_circle"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/six"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.55"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/six_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_12sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.4"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/six_and_nine"
+                                android:layout_width="@dimen/_11sdp"
+                                android:layout_height="@dimen/_11sdp"
+                                android:layout_marginTop="@dimen/_6sdp"
+                                android:background="@drawable/roulette_button_circle"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/nine"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.62"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/nine_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_12sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.4"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/nine_and_twelve"
+                                android:layout_width="@dimen/_11sdp"
+                                android:layout_height="@dimen/_11sdp"
+                                android:layout_marginTop="@dimen/_6sdp"
+                                android:background="@drawable/roulette_button_circle"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/twelve"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.8"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/twelve_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_14sdp"
+                                android:layout_marginTop="@dimen/_6sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.1"
+                        android:orientation="horizontal"
+                        android:weightSum="12">
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.55" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+
+                            <Button
+                                android:id="@+id/three_and_two"
+                                android:layout_width="@dimen/_12sdp"
+                                android:layout_height="@dimen/_12sdp"
+                                android:background="@drawable/roulette_button_circle" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.95" />
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:id="@+id/twenty_eight"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/twenty_eight_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:focusableInTouchMode="false"
+                                android:focusable="false"
+                                android:layout_marginLeft="@dimen/_1sdp"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold"
+                                android:background="@drawable/roulette_button_circle" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.08" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:visibility="gone">
+
+
+                            <Button
+                                android:id="@+id/six_and_five"
+                                android:layout_width="@dimen/_12sdp"
+                                android:layout_height="@dimen/_12sdp"
+                                android:background="@drawable/roulette_button_circle" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.92" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:id="@+id/twenty_nine"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/twenty_nine_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_1sdp"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold"
+                                android:background="@drawable/roulette_button_circle" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.6" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/nine_and_eight"
+                                android:layout_width="@dimen/_12sdp"
+                                android:layout_height="@dimen/_12sdp"
+                                android:background="@drawable/roulette_button_circle"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.92" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:id="@+id/thirty"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/thirty_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_1sdp"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold"
+                                android:background="@drawable/roulette_button_circle" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/twelve_and_eleven"
+                                android:layout_width="@dimen/_12sdp"
+                                android:layout_height="@dimen/_12sdp"
+                                android:background="@drawable/roulette_button_circle"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.25" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.1"
+                        android:weightSum="8">
+
+
+                        <LinearLayout
+                            android:id="@+id/two"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.82"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/two_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_10sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.4"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/two_and_five"
+                                android:layout_width="@dimen/_12sdp"
+                                android:layout_height="@dimen/_12sdp"
+                                android:background="@drawable/roulette_button_circle"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/five"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.55"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/five_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_12sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.4"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/five_and_eight"
+                                android:layout_width="@dimen/_12sdp"
+                                android:layout_height="@dimen/_12sdp"
+                                android:background="@drawable/roulette_button_circle"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/eight"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.62"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/eight_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_12sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.4"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/eight_and_eleven"
+                                android:layout_width="@dimen/_12sdp"
+                                android:layout_height="@dimen/_12sdp"
+                                android:background="@drawable/roulette_button_circle"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/eleven"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.8"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/eleven_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_14sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.1"
+                        android:orientation="horizontal"
+                        android:weightSum="12">
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.05" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/two_and_one"
+                                android:layout_width="@dimen/_12sdp"
+                                android:layout_height="@dimen/_12sdp"
+                                android:background="@drawable/roulette_button_circle"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:id="@+id/thirty_one"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/thirty_one_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold"
+                                android:background="@drawable/roulette_button_circle" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.5" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/five_and_four"
+                                android:layout_width="@dimen/_12sdp"
+                                android:layout_height="@dimen/_12sdp"
+                                android:background="@drawable/roulette_button_circle"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.98" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:id="@+id/thirty_two"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/thirty_two_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold"
+                                android:background="@drawable/roulette_button_circle" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.55" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/eight_and_seven"
+                                android:layout_width="@dimen/_12sdp"
+                                android:layout_height="@dimen/_12sdp"
+                                android:background="@drawable/roulette_button_circle"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.95" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:id="@+id/thirty_three"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/thirty_three_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold"
+                                android:background="@drawable/roulette_button_circle" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.05" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.5"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/eleven_and_ten"
+                                android:layout_width="@dimen/_12sdp"
+                                android:layout_height="@dimen/_12sdp"
+                                android:background="@drawable/roulette_button_circle"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.5"
+                        android:weightSum="8">
+
+
+                        <LinearLayout
+                            android:id="@+id/one"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.82"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/one_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:layout_marginRight="@dimen/_10sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.4"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/one_and_four"
+                                android:layout_width="@dimen/_12sdp"
+                                android:layout_height="@dimen/_12sdp"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:background="@drawable/roulette_button_circle"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/four"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.55"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/four_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:layout_marginRight="@dimen/_12sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.3"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/four_and_seven"
+                                android:layout_width="@dimen/_12sdp"
+                                android:layout_height="@dimen/_12sdp"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:background="@drawable/roulette_button_circle"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/seven"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.62"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/seven_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:layout_marginRight="@dimen/_12sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="0.4"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/seven_and_ten"
+                                android:layout_width="@dimen/_12sdp"
+                                android:layout_height="@dimen/_12sdp"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:background="@drawable/roulette_button_circle"
+                                android:visibility="gone" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ten"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="1.8"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/ten_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginBottom="@dimen/_6sdp"
+                                android:layout_marginRight="@dimen/_14sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <Button
+                                android:id="@+id/one_to_sixs"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/roulette_button_one_to_six"
+                                android:text="1 - 6"
+                                android:textColor="#FFFFFF"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/twenty"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/twenty_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginBottom="@dimen/_15sdp"
+                                android:layout_marginRight="@dimen/_1sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <Button
+                                android:id="@+id/four_to_nines"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/roulette_button_four_to_nine"
+                                android:text="4 - 9"
+                                android:textColor="#FFFFFF"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/twenty_one"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/twenty_one_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginBottom="@dimen/_15sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <Button
+                                android:id="@+id/seven_to_twelves"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/roulette_button_seven_to_twelve"
+                                android:text="7 - 12"
+                                android:textColor="#FFFFFF"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/twenty_two"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/twenty_two_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginBottom="@dimen/_15sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/evens"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/roulette_button_even"
+                                android:paddingLeft="@dimen/_5sdp"
+                                android:text="Even"
+                                android:textColor="#FFFFFF"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/twenty_three"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/twenty_three_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginBottom="@dimen/_15sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/reds"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/roulette_button_red"
+                                android:text=""
+                                android:textColor="#FFFFFF"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/twenty_four"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/red_diamond"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/twenty_four_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginBottom="@dimen/_1sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <Button
+                                android:id="@+id/blacks"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/roulette_button_black"
+                                android:textColor="#FFFFFF"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/twenty_five"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/grey_diamond"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/twenty_five_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginBottom="@dimen/_1sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/odds"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/roulette_button_odd"
+                                android:text="odd"
+                                android:textColor="#FFFFFF"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/twenty_six"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+                            <Button
+                                android:id="@+id/twenty_six_chip"
+                                android:layout_width="@dimen/_15sdp"
+                                android:layout_height="@dimen/_15sdp"
+                                android:layout_marginBottom="@dimen/_15sdp"
+                                android:background="@mipmap/chip_image"
+                                android:text="0"
+                                android:textColor="@android:color/black"
+                                android:textSize="@dimen/_5sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="6">
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/three_to_twelves"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/roulette_button_three_to_twelve"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:text="2 to 1"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/seventeen"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/seventeen_chip"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        android:background="@mipmap/chip_image"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_5sdp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/two_to_elevens"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/roulette_button_two_to_eleven"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:text="2 to 1"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/eighteen"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/eighteen_chip"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        android:background="@mipmap/chip_image"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_5sdp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/one_to_tens"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/roulette_button_one_to_ten"
+                        android:paddingTop="@dimen/_5sdp"
+                        android:text="2 to 1"
+                        android:textColor="#FFFFFF"
+                        android:textSize="@dimen/_12sdp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/nineteen"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/nineteen_chip"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        android:background="@mipmap/chip_image"
+                        android:text="0"
+                        android:textColor="@android:color/black"
+                        android:textSize="@dimen/_5sdp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

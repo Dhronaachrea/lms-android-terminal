@@ -1,0 +1,7 @@
+<resources>
+    <string name="title_activity_bet_slip_scan">BetSlipScanActivity</string>
+    <string name="title_activity_claim_winning_activity_tousei">ClaimWinningActivityTousei</string>
+    <string name="title_activity_claim_winning_activity_tps390">ClaimWinningActivityTps390</string>
+    <string name="title_activity_activity_dge_games_tps390">ActivityDgeGamesTps390</string>
+    <string name="title_activity_activity_sle_games_tps390">ActivitySleGamesTps390</string>
+</resources>
